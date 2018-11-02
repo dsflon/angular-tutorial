@@ -28,6 +28,10 @@ import { MemberService } from './member.service';
           {
               path: 'dashboard',
               component: DashboardComponent
+          },
+          {
+              path: 'detail/:id',
+              component: MemberDetailComponent
           }
       ])
   ],
